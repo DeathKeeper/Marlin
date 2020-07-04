@@ -3375,7 +3375,7 @@
    *   #define WIFI_SSID "WiFi SSID"
    *   #define WIFI_PWD  "WiFi Password"
    */
-  #include "Configuration_Secure.h" // External file with WiFi SSID / Password
+  //#include "Configuration_Secure.h" // External file with WiFi SSID / Password
 #endif
 
 /**
