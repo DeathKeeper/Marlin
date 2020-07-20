@@ -852,7 +852,7 @@
  */
 #define DEFAULT_ACCELERATION          2500    // X, Y, Z and E acceleration for printing moves
 #define DEFAULT_RETRACT_ACCELERATION  2500    // E acceleration for retracts
-#define DEFAULT_TRAVEL_ACCELERATION   2700    // X, Y, Z acceleration for travel (non printing) moves
+#define DEFAULT_TRAVEL_ACCELERATION   2900    // X, Y, Z acceleration for travel (non printing) moves
 
 /**
  * Default Jerk limits (mm/s)
@@ -1077,7 +1077,7 @@
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
-#define MIN_PROBE_EDGE 50
+#define MIN_PROBE_EDGE 35
 
 // X and Y axis travel speed (mm/m) between probes
 #define XY_PROBE_SPEED 3800
